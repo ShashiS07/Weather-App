@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather Application
 
 ## Available Scripts
 
@@ -34,4 +32,5 @@ For knowing the weather condition you have to search city or country name in the
 ### `Test App by yourself`
 
 Here is the deployement link where you can use the app.
+
 https://knowweathercondition.netlify.app/
