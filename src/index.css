@@ -9,7 +9,7 @@ body {
 }
 
 .app {
-  background-image: url('./assests/cloud-bg.jpg');
+  background-image: url('./assests/all-bg.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
@@ -22,8 +22,8 @@ body {
 .app.rain{
   background-image: url('./assests/rain-bg.jpg');
 }
-.app.cloud{
-  background-image: url('./assests/cloud-bg.jpg');
+.app.cold{
+  background-image: url('./assests/cold-bg.jpg');
 }
 main {
   min-height: 100vh;
