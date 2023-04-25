@@ -15,7 +15,7 @@ function App() {
         .then(result => {
           setWeather(result);
           setQuery('');
-          console.log(result);
+          console.log(result.weather[0].main);
         });
     }
   }
@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
+    <div className={(typeof weather.main != "undefined") ? ((weather.weather[0].main==="Haze") ? 'app warm' : 'app') : 'app'}>
       <main>
         <div className="search-box">
           <input 
