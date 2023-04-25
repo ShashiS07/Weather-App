@@ -34,5 +34,4 @@ For knowing the weather condition you have to search city or country name in the
 ### `Test App by yourself`
 
 Here is the deployement link where you can use the app.
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e7b7f10d-765b-416a-800b-372e4517a17b/deploy-status)](https://app.netlify.com/sites/knowweathercondition/deploys)
+https://knowweathercondition.netlify.app/
